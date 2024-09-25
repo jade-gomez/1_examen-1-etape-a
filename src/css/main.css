@@ -4,14 +4,6 @@
   padding: 0;
 }
 
-a {
-  color: inherit;
-}
-
-img,
-video {
-  display: block;
-}
 .flexbox {
   font-family: "Heebo";
   color: white;
@@ -29,7 +21,7 @@ video {
 .bloc {
   background-color: #f77f00;
   border: 1px solid #d62828;
-  padding: 35px 0px;
+  padding: 35px;
   height: 130px;
 }
 .ex-1-bloc {
@@ -43,6 +35,20 @@ video {
   gap: 30px;
   align-items: center;
 }
-.ex-2-bloc {
-  padding: 35px;
+.ex-3 {
+  justify-content: space-around;
+}
+
+.ex-4 {
+  height: 450px;
+  align-items: center;
+  gap: 30px;
+  padding-right: 30px;
+  flex-direction: row-reverse;
+}
+.ex-5-bloc {
+  width: 50%;
+}
+.ex-5 {
+  flex-wrap: wrap;
 }
